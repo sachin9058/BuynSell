@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuynSell</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"></a>
+        </div>
+        <div class="name">
+            <a href="index.html" id="main">BuynSell</a>
+        </div>
+        <div class="search">
+            <select name="All" id="option">
+                <option value="">All</option>
+                <option value="">Electronics</option>
+                <option value="">Clothes</option>
+                <option value="">Stationary</option>
+            </select>
+            <input id="bar" type="search" onclick="SubmitEvent" placeholder="Search BuynSell">
+            <button id="button1"><a href="#" id="click">Search</a></button>
+        </div>
+        <div class="signin">
+            <a href="signin.html" id="signin">Sign in</a>
+        </div>
+        <div class="cart">
+            <a href="#" id="cart">Cart</a>
+        </div>
+        </div>
+        <div class="contact">
+            <a href="contact.html" id="contact">Cantact Us</a>
+        </div>
+    </header>
+    <div class="headings">
+        <div class="toppicks">
+            <h1 style="color: green;">Top Picks in college today!!!</h1>
+        </div>
+        <div class="hotdeals">
+            <h1 style="color: green;">Great Deals today !!!</h1>
+        </div>
+    </div>
+    <div class="topproducts">
+        <div class="toppickstoday">
+            <div class="p1">
+                <img id="img1" src="/product_images/Designer (1).jpeg" alt="">
+                <p>The Best Fabrik cloth printed with IIT BHU Merchandise</p>
+            </div>
+            <div class="p2"></div>
+            <div class="p3"></div>
+        </div>
+    <div class="items">
+        <h3>Upload the items u wants to sell on website</h3>
+        <form action='' method='POST' enctype='multipart/form-data'>
+            <input type='file' name='userFile'><br>
+            <input type='submit' name='upload_btn' value='upload'>
+            </form>
+            
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

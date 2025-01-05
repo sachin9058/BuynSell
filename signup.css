@@ -1,0 +1,74 @@
+*{
+    border: 0;
+    padding: 0;
+}
+.createaccount{
+    height: 40rem;
+    width: 40rem;
+    background-image: url("images\ \(73\).jpeg");
+    background-size: cover;
+    margin-left: 30rem;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+.name{
+     margin-left: 10rem;
+     font-size: 2rem;
+     color: white;
+}
+#nameinfo{
+    height: 2rem;
+    width: 20rem;
+}
+.email{
+    color: white;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-left: 10rem;
+}
+#email{
+    height: 2rem;
+    width: 20rem;
+}
+.password{
+    margin-top: 1rem;
+    margin-left: 7rem;
+    color: white;
+    font-size: 2rem;
+}
+#password{
+    height: 2rem;
+    width: 20rem;
+}
+.signup{
+    height: 3rem;
+    width: 25rem;
+    background-color: rgb(5, 5, 235);
+    margin-top: 1rem;
+    margin-left: 11rem;
+}
+#signup{
+    margin-left: 7rem;
+    margin-top: 0rem;
+}
+#signuplink{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    background-color: rgb(5, 5, 235);
+}
+.login{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+#loginbtn {
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: transparent;
+    
+}

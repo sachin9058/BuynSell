@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+h1{
+    color: white;
+    font-size: 3rem;
+    font-style: italic;
+}
+#info{
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    font-family: cursive;
+    font-style: italic;
+}
+#infosec{
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.insta,.wp{
+    margin-top: 1rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+.tele{
+    margin-top: 1rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+#conthere{
+    margin-top: 1rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+}

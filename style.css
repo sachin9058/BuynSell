@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+
+}
+.logo{
+    height: 90px;
+    width: 90px;
+    margin-top: 3px;
+    border-radius: 50%;
+    background-image: url("logo.webp");
+    background-size: cover;
+    transform: rotateZ(10deg)
+
+}
+.name{
+    height: 100px;;
+    color:white;
+    margin-left: 5px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
+    font-size: 40px;
+}
+#main {
+    color: white;
+    text-decoration: none;
+}
+.search{
+    height: 40px;
+    width: 700px;
+    background-color:black;
+    margin-left: 250px;
+    display: flex;
+    margin-top: 1.8rem;
+    gap: 0px;
+}
+#option {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+#bar{
+    width: 500px;
+    color: goldenrod;
+    background-color:white;
+    text-align: center;
+    font-size: 2rem;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
+#click {
+    text-decoration: none;
+    color: violet;
+}
+#button1 {
+    background-color: yellow;
+}
+.cart{
+    margin-top: 12px;
+    margin-left: 20px;
+}
+#cart{
+    color: white;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.signin{
+    margin-top: 12px;
+    margin-left: 20px;
+}
+#signin{
+    color: white;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.cart{
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.contact{
+    margin-top: 12px;
+    margin-left: 20px;
+}
+#contact{
+    color: white;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.headings {
+    display: flex;
+    gap: 800px;
+}
+.toproducts {
+    display: flex;
+}
+.toppickstoday{
+    display: flex;
+    gap: 3px;
+}
+.p1{
+    height: 300px;
+    width: 300px;
+}
+#img1 {
+    height: 200px;
+    width: 200px;
+}
+.p2 {
+    width: 200px;
+    height: 200px;
+    background-image: url("/product_images/Designer\ \(3\).jpeg");
+    background-size: cover;
+}
+.p3 {
+    width: 200px;
+    height: 200px;
+    background-image: url("/product_images/Designer\ \(4\).jpeg");
+    background-size: cover;
+}

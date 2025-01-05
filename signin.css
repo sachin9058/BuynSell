@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+
+}
+.logo{
+    height: 90px;
+    width: 90px;
+    margin-top: 3px;
+    border-radius: 50%;
+    background-image: url("logo.webp");
+    background-size: cover;
+    transform: rotateZ(10deg)
+
+}
+.name{
+    height: 100px;;
+    color:white;
+    margin-left: 5px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
+    font-size: 40px;
+}
+#main {
+    color: white;
+    text-decoration: none;
+}
+.search{
+    height: 40px;
+    width: 700px;
+    background-color:black;
+    margin-left: 250px;
+    display: flex;
+    margin-top: 1.8rem;
+    gap: 0px;
+}
+#option {
+    width: 3rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+#bar{
+    width: 500px;
+    color: goldenrod;
+    background-color:white;
+    text-align: center;
+    font-size: 2rem;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
+#click {
+    text-decoration: none;
+    color: violet;
+}
+#button1 {
+    background-color: yellow;
+}
+.cart{
+    margin-top: 12px;
+    margin-left: 20px;
+}
+#cart{
+    color: white;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.signin{
+    margin-top: 12px;
+    margin-left: 20px;
+}
+#signin{
+    color: white;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.cart{
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.contact{
+    margin-top: 12px;
+    margin-left: 20px;
+}
+#contact{
+    color: white;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.headings {
+    display: flex;
+    gap: 800px;
+}
+.toproducts {
+    display: flex;
+}
+.toppickstoday{
+    display: flex;
+    gap: 3px;
+}
+.p1{
+    height: 300px;
+    width: 300px;
+}
+#img1 {
+    height: 200px;
+    width: 200px;
+}
+.p2 {
+    width: 200px;
+    height: 200px;
+    background-image: url("/product_images/Designer\ \(3\).jpeg");
+    background-size: cover;
+}
+.p3 {
+    width: 200px;
+    height: 200px;
+    background-image: url("/product_images/Designer\ \(4\).jpeg");
+    background-size: cover;
+}
+.loginpage{
+    display: flex;
+}
+#mainh1 {
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+    color: white;   
+}
+
+.signinpage{
+    height: 735px;
+    width: 970px;
+    margin-top: 0rem;
+    background-image: url("signin.jpeg");
+    background-size: cover;
+}
+.socialnet{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.fb{
+    height: 50px;
+    width: 50px;
+}
+.google {
+    height: 50px;
+    width: 50px;
+}
+.phone{
+    height: 50px;
+    width: 50px;
+}
+#fblogo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#googlelogo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#phonelogo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.email {
+    color:white;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+#emailid{
+    background-color: rgb(165, 227, 151);;
+    font-size: 1.5rem;
+    color: chocolate;
+    text-decoration: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    height: 2rem;
+    width: 18rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.password{
+    color: white;
+    font-size: 3rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+#passwordid{
+    background-color:rgb(165, 227, 151);
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 18rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.submitsignin{
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 2rem;
+    margin-left: 25rem;
+    margin-top: 2rem;
+    background-color: aqua;
+}
+.signbtn{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 0.4rem;
+    font-size: 1.5rem;
+    border-style: none;
+}
+.signuppage{
+    height: 735px;
+    width: 550px;
+    background-image: url("images\ \(72\).jpeg");
+    background-size: cover;
+}
+#h1sec{
+    margin-top: 8rem;
+    text-align: center;
+    color:white;
+    font-size: 4rem;
+}
+#signupinfo{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.submitsignup{
+    height: 50px;
+    width: 100px;
+    background-color: chartreuse;
+    border-radius: 1.5rem;
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 13rem;
+}
+#submitsignup{
+    margin-left: 2rem;
+    text-decoration: none;
+    background-color: chartreuse;
+    border-style: none;
+}
+
